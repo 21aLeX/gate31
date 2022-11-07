@@ -1,7 +1,4 @@
-body {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 h4 {
     white-space: nowrap;
@@ -9,14 +6,22 @@ h4 {
     text-overflow: ellipsis;
 }
 
+.boxBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .block {
     margin: 10px;
     padding: 5px;
     width: 300px;
     /* background-color: white; */
+    transition: 1s linear;
     border: solid 1px black;
 }
 
 .block-nith {
-    background-color: dimgray;
+    color: wheat;
+    transition: 1s linear;
+    background-color: rgb(105, 105, 105);
 }
