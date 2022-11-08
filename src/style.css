@@ -1,27 +1,21 @@
-
-
 h4 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
 .boxBlock {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 .block {
-    margin: 10px;
-    padding: 5px;
-    width: 300px;
-    /* background-color: white; */
-    transition: 1s linear;
-    border: solid 1px black;
+  margin: 10px;
+  padding: 5px;
+  width: 300px;
+  transition: 1s linear;
+  border: solid 1px black;
 }
-
-.block-nith {
-    color: wheat;
-    transition: 1s linear;
-    background-color: rgb(105, 105, 105);
+.block-night {
+  color: wheat;
+  transition: 1s linear;
+  background-color: rgb(105, 105, 105);
 }
